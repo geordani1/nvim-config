@@ -1,6 +1,14 @@
 -- Set leader key
 vim.g.mapleader = ' '
 
+vim.cmd [[
+  hi Normal guibg=NONE ctermbg=NONE
+  hi NormalNC guibg=NONE ctermbg=NONE
+  hi SignColumn guibg=NONE ctermbg=NONE
+  hi EndOfBuffer guibg=NONE ctermbg=NONE
+]]
+
+
 -- Display settings
 vim.opt.number = true
 vim.opt.relativenumber = true
